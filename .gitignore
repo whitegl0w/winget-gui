@@ -1,0 +1,4 @@
+/venv/
+ignore_list.json
+.idea/
+__pycache__/
