@@ -19,8 +19,8 @@
      <rect>
       <x>10</x>
       <y>430</y>
-      <width>1001</width>
-      <height>111</height>
+      <width>781</width>
+      <height>121</height>
      </rect>
     </property>
    </widget>
@@ -96,6 +96,58 @@
       </widget>
      </item>
     </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>430</y>
+      <width>201</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Show Mode</string>
+    </property>
+    <widget class="QRadioButton" name="rb_updates">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Avalible Updates</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_installed">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>All installed apps</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_ignore_list">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>104</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ignore List</string>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
